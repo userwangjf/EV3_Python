@@ -64,6 +64,7 @@ def test():
     print("print to output",file=sys.stderr)
     print('Hello World 12345')
     print('0123456789ABCDEFabcdef')
+    print('OK')
 
     sleep(3)
 

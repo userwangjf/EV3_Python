@@ -31,7 +31,7 @@ import sys
 # TODO: Add code here
 
 
-testcase='test_print'
+testcase='test_sound'
 
 if testcase=='test_print':
     from test_print import test
@@ -39,9 +39,17 @@ if testcase=='test_print':
 if testcase=='test_button':
     from test_button import test
 
+if testcase=='test_led':
+    from test_led import test
+
+if testcase=='test_sound':
+    from test_sound import test    
+
 #执行用例
 test()
+
 exit()
+
 
 disp = Display()
 leds = Leds()
