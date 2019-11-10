@@ -39,6 +39,7 @@ def key_enter(new_state):
     print(new_state)
     print('press enter',file=sys.stderr)
 
+#定义按键的响应函数
 button.on_enter = key_enter
 
 while True:
